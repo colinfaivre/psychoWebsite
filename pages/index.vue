@@ -1,72 +1,86 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        jean-yves
-      </h1>
-      <h2 class="subtitle">
-        
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div id="top" class="container">
+    <Menu class="menu"/>
+    <Main />
+
+    <Section1 class="section dark"/>
+    <Section2 class="section light"/>
+    <Hours class="section dark"/>
+    <Map class="section light"/>
+    <Footer id="footer" class="dark"/>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Vue from 'vue'
+import vueSmoothScroll from 'vue2-smooth-scroll'
+Vue.use(vueSmoothScroll)
 
+import Menu from '@/components/Menu'
+import Main from '@/components/Main'
+import Button from '@/components/Button'
+import Section1 from '@/components/Section1'
+import Section2 from '@/components/Section2'
+import Hours from '@/components/Hours'
+import Map from '@/components/Map'
+import Footer from '@/components/Footer'
 export default {
   components: {
-    Logo
+    Menu,
+    Main,
+    Button,
+    Section1,
+    Section2,
+    Hours,
+    Map,
+    Footer,
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 .container {
   margin: 0 auto;
   min-height: 100vh;
+  position: relative;
+}
+
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.section-text {
+  max-width: 800px;
+  margin: auto;
+}
+
+.dark {
+  background-color: $primary;
+  color: $secondary;
+}
+.light {
+  background-color: $secondary;
+  color: $primary;
+}
+
+.round-image {
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin-top: 15px;
 }
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 </style>
