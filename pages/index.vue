@@ -1,7 +1,16 @@
 <template>
   <div id="top" class="container">
-    <Menu class="menu"/>
-    <Main />
+    <Menu
+      class="menu"
+      @toggled="toggleMenu()"
+    />
+
+    <Drawer
+      class="drawer"
+      v-if="menuIsOpen === true"
+    />
+
+    <Main/>
 
     <Section1 class="section dark"/>
     <Section2 class="section light"/>
@@ -18,6 +27,7 @@ import vueSmoothScroll from 'vue2-smooth-scroll'
 Vue.use(vueSmoothScroll)
 
 import Menu from '@/components/Menu'
+import Drawer from '@/components/Drawer'
 import Main from '@/components/Main'
 import Button from '@/components/Button'
 import Section1 from '@/components/Section1'
@@ -26,8 +36,20 @@ import Hours from '@/components/Hours'
 import Office from '@/components/Office'
 import Map from '@/components/Map'
 import Footer from '@/components/Footer'
+
 export default {
+  data () {
+    return {
+      menuIsOpen: false
+    }
+  },
+  methods: {
+    toggleMenu () {
+      this.menuIsOpen = !this.menuIsOpen
+    },
+  },
   components: {
+    Drawer,
     Menu,
     Main,
     Button,
@@ -37,7 +59,7 @@ export default {
     Hours,
     Map,
     Footer,
-  }
+  },
 }
 </script>
 
@@ -85,5 +107,14 @@ export default {
   position: absolute;
   top: 20px;
   right: 20px;
+}
+.drawer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 70%;
+  background-color: $primary;
+  color: $secondary;
+  height: 100vh;
 }
 </style>
