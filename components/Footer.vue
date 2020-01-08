@@ -1,11 +1,15 @@
 <template>
   <div class="footer">
-    <i class="material-icons">
-      phone
-    </i>
-    <i class="material-icons">
-      mail
-    </i>
+    <a href="tel:+33681754218">
+      <i class="material-icons">
+        phone
+      </i>
+    </a>
+    <a href="mailto:jeanyves.gauthier.gr.travail@gmail.com" target="_blank">
+      <i class="material-icons">
+        mail
+      </i>
+    </a>
     <i class="material-icons">
       account_balance
     </i>
@@ -21,6 +25,10 @@
 
   display: flex;
   justify-content: center;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 .material-icons {
   margin-left: 14px;

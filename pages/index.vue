@@ -6,6 +6,7 @@
     <Section1 class="section dark"/>
     <Section2 class="section light"/>
     <Hours class="section dark"/>
+    <Office/>
     <Map class="section light"/>
     <Footer id="footer" class="dark"/>
   </div>
@@ -22,6 +23,7 @@ import Button from '@/components/Button'
 import Section1 from '@/components/Section1'
 import Section2 from '@/components/Section2'
 import Hours from '@/components/Hours'
+import Office from '@/components/Office'
 import Map from '@/components/Map'
 import Footer from '@/components/Footer'
 export default {
@@ -31,6 +33,7 @@ export default {
     Button,
     Section1,
     Section2,
+    Office,
     Hours,
     Map,
     Footer,

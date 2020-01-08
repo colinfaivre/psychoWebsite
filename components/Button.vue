@@ -1,10 +1,10 @@
 <template>
-  <div class="button--action">
+  <a class="button--action" href="tel:+33681754218">
     <i class="material-icons">
       phone
     </i>
     PRENDRE RDV
-  </div>
+  </a>
 </template>
 
 <style lang="scss">
@@ -24,6 +24,8 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
   &:hover {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
