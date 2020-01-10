@@ -28,27 +28,26 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .main-screen {
   padding-left: 10px;
   padding-right: 10px;
-}
-
-.top {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  min-height: 90vh;
-}
-.bottom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  min-height: 10vh;
+  .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 90vh;
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 10vh;
+  }
 }
 
 .title {

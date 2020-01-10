@@ -10,11 +10,23 @@
         mail
       </i>
     </a>
-    <i class="material-icons">
-      account_balance
-    </i>
+    <n-link @click.native="closeMenu()" to="/legal" no-prefetch>
+      <i class="material-icons">
+        account_balance
+      </i>
+    </n-link>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    closeMenu() {
+      this.$store.commit('closeMenu')
+    }
+  },
+}
+</script>
 
 <style scoped lang="scss">
 .footer {

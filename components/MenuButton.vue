@@ -1,10 +1,20 @@
 <template>
-  <div class="menu-container" @click="$emit('toggled')">
+  <div class="menu-container" @click.stop="openMenu()">
     <i class="material-icons">
       menu
     </i>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    openMenu() {
+      this.$store.commit('openMenu')
+    }
+  }
+}
+</script>
 
 <style scoped lang="scss">
 .menu-container {

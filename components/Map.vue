@@ -10,7 +10,5 @@
 <style lang="scss">
 .address {
   text-align: center;
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
 }
 </style>
