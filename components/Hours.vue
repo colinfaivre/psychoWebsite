@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3 class="section-title">Horaires</h3>
+    <h3 class="section-title">Le cabinet</h3>
     <div class="table-container">
       <table>
         <tbody>

@@ -48,6 +48,7 @@ export default {
   padding: 10px;
   border-radius: 22px;
   cursor: pointer;
+  color: $accent;
   &:hover {
     background-color: $primary-med-light;
   }

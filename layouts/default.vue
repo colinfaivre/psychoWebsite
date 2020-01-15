@@ -2,6 +2,8 @@
   <div :class="{'app': true, 'prevent-scroll': menuIsOpen}">
     <BackButton class="back-button" v-if="$nuxt.$route.path !== '/'"/>
     <MenuButton class="menu-button" />
+
+    <NavBar class="nav-bar" />
     <Drawer :class="{'drawer':true, 'drawer-open': menuIsOpen}" />
     <div
       @click="closeMenu()"
@@ -13,17 +15,19 @@
 </template>
 
 <script>
-import MenuButton from '@/components/MenuButton'
 import BackButton from '@/components/BackButton'
+import MenuButton from '@/components/MenuButton'
+import NavBar from '@/components/NavBar'
 import Drawer from '@/components/Drawer'
 import Footer from '@/components/Footer'
 
 export default {
   components: {
     Drawer,
+    BackButton,
     MenuButton,
+    NavBar,
     Footer,
-    BackButton
   },
   data () {
     return {}
@@ -64,6 +68,15 @@ html {
   outline: 0;
   -webkit-tap-highlight-color: transparent;
 }
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ -webkit-tap-highlight-color: transparent;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+  user-select: none;
+}
 .app {
   position: relative;
 }
@@ -91,6 +104,12 @@ html {
     user-select: none;
     -webkit-tap-highlight-color: transparent;
   }
+}
+.nav-bar {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  z-index: 5;
 }
 .back-button {
   position: absolute;
@@ -152,10 +171,17 @@ html {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   margin-top: 15px;
 }
 
-@media (min-width: 1000px) {
+
+@media (max-width: $tablet) {
+  .nav-bar {
+    display: none;
+  }
+}
+@media (min-width: $tablet) {
   .menu-button, .back-button{
     display: none;
   }

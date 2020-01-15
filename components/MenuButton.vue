@@ -22,7 +22,7 @@ export default {
 }
 .material-icons {
   font-size: 35px;
-  color: $primary-light;
+  color: $accent;
   padding: 5px;
   border-radius: 22px;
   cursor: pointer;

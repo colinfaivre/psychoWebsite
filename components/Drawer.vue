@@ -1,6 +1,8 @@
 <template>
   <div class="drawer-container">
+
     <n-link class="home-link" to="/" @click.native="closeMenu()">
+      <img src="@/assets/images/rings.png">
       <h1 class="drawer-title">
         Jean-Yves
         <br>
@@ -8,27 +10,20 @@
       </h1>
     </n-link>
 
-    <div class="links">
-      <n-link class="links-item" to="/#section1" @click.native="closeMenu()" v-smooth-scroll>Section 1</n-link>
-      <n-link class="links-item" to="/#section2" @click.native="closeMenu()" v-smooth-scroll>Section 2</n-link>
-      <n-link class="links-item" to="/#hours" @click.native="closeMenu()" v-smooth-scroll>Horaires</n-link>
-      <n-link class="links-item" to="/#office" @click.native="closeMenu()" v-smooth-scroll>Cabinet</n-link>
-      <n-link class="links-item" to="/#map" @click.native="closeMenu()" v-smooth-scroll>Adresse</n-link>
-    </div>
+    <NavLinks/>
 
     <Footer/>
   </div>
 </template>
 
 <script>
-import Vue from 'vue'
-import vueSmoothScroll from 'vue2-smooth-scroll'
-Vue.use(vueSmoothScroll)
 import Footer from '@/components/Footer'
+import NavLinks from '@/components/NavLinks'
 
 export default {
   components: {
     Footer,
+    NavLinks,
   },
   methods: {
     closeMenu() {
@@ -47,6 +42,9 @@ export default {
   align-items: center;
 }
 .home-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-decoration: none;
   color: inherit;
   margin-top: 20px;
@@ -67,26 +65,6 @@ export default {
   font-size: 35px;
   letter-spacing: 1px;
   line-height: 34px;
+  color: $accent;
 }
-.links {
-  margin-top: 20px;
-  width: calc(100% - 40px);
-  display: flex;
-  flex-direction: column;
-  // align-items: center;
-}
-.links-item {
-  border-radius: 3px;
-  text-decoration: none;
-  color: inherit;
-  font-size: 25px;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  &:hover {
-    background-color: $primary-med-light;
-  }
-}
-
 </style>

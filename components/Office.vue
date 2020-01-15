@@ -8,6 +8,7 @@
 .office-container {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
 .office {
   width: 100%;

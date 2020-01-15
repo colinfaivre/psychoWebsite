@@ -2,11 +2,14 @@
   <div>
     <h3 class="section-title">Section 1</h3>
     <p class="section-text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris leo quam, placerat sed interdum in, elementum sit amet neque. Proin nisl sem, faucibus in vehicula id, cursus nec est. Integer vestibulum vehicula diam quis maximus. Sed lacinia malesuada fermentum. Aenean faucibus, risus eu tempor mollis, magna libero varius diam, vitae tincidunt dolor ante et ipsum. Donec vel leo sem. Sed fringilla iaculis fringilla. Nunc eros nisi, malesuada ut eros eget, malesuada auctor lectus. Suspendisse pulvinar ultricies diam, at pellentesque sem euismod id.
+      Je suis titulaire du DESS ( actuellement Master 2) de "psycho-pathologie et clinique de la vie quotidienne" de L'université de Toulouse le Mirail depuis septembre 1980.
+      Après une expérience de deux ans à l'école expérimentale de "Bonneuil sur Marne" (où je me suis occupé notemment d'un accueil de nuit) et une expérience comme éducateur dans un foyer maternel, j'exerce en tant que psychologue clinicien depuis plus de trente ans (1984) dans une MECS accueillant des enfants et adolescents en très grandes difficultés.
+      Mon exercice  comme psychothérapeute en libéral  commence en janvier 2005 soit il y a maintenant une douzaine d'années. Il s'adresse à des enfants, adolescents présentant toutes sortes de malaises et de pathologies et désireux de questionner leur "mal-être" en étant accompagnés et parfois guidés dans ce difficile travail.
+      Depuis leur création, je suis membre du Collège de Formation Analytique au Psychodrame  et de la Libre Association Freudienne, respectivement comme psychodramatiste et psychanalyste. Ces écoles ont été toutes deux fondées par le psychanalyste Gabriel Balbo. 
     </p>
-    <a href="#top" v-smooth-scroll class="round-image">
+    <div class="round-image">
       <img src="@/assets/images/monstera.png" alt="monstera" width="100px">
-    </a>
+    </div>
   </div>
 </template>
 
