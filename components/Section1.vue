@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3 class="section-title">Section 1</h3>
+    <h3 class="section-title">Mon parcours</h3>
     <p class="section-text">
       Je suis titulaire du DESS ( actuellement Master 2) de "psycho-pathologie et clinique de la vie quotidienne" de L'université de Toulouse le Mirail depuis septembre 1980.
       Après une expérience de deux ans à l'école expérimentale de "Bonneuil sur Marne" (où je me suis occupé notemment d'un accueil de nuit) et une expérience comme éducateur dans un foyer maternel, j'exerce en tant que psychologue clinicien depuis plus de trente ans (1984) dans une MECS accueillant des enfants et adolescents en très grandes difficultés.
