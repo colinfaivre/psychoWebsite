@@ -5,11 +5,22 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Jean-Yves Gauthier',
+    title: 'Jean-Yves Gauthier : Psychanalyste - Psychologue clinicien à Limoges',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Votre psychanalyste à Limoges' }
+
+      // Google Search
+      { hid: 'description', name: 'description', content: 'Votre psychanalyste / psychologue clinicien à Limoges' },
+      { name: 'keywords', content: 'Jean-Yves Gauthier, psychologue, psychanalyste, psychologue limoges, psychanalyste limoges' },
+      // OpengGraph image (social media sharable)
+      { property: 'og:image', content: '/og-image.png' },
+      { property: 'og:image:width', content: '750' },
+      { property: 'og:image:height', content: '376' },
+      { property: 'og:description', content: 'Votre psychanalyste / psychologue clinicien à Limoges' },
+      { property: 'og:url', content: 'https://jeanyves.gauthier.psychanalyste.com' },
+      { property: 'og:title', content: 'Jean-Yves Gauthier' },
+      
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -21,7 +32,7 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#303130' },
   /*
   ** Plugins to load before mounting the App
   */
@@ -40,6 +51,23 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources'
   ],
+  pwa: {
+    manifest: {
+      "short_name": "Jean-Yves Gauthier",
+      "name": "Jean-Yves Gauthier",
+      "lang": "fr",
+      "background_color": "#303030",
+      "display": "standalone",
+      "theme_color": "#303030"
+    },
+  },
+  workbox: {
+    offlineAssets: ['/index.html', '/legal/index.html'],
+    offlinePage: '/404.html',
+  },
+  generate: {
+    fallback: true,
+  },
   styleResources: {
     scss: [
       'assets/scss/main.scss'
