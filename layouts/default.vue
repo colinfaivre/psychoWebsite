@@ -77,6 +77,10 @@ html {
  -ms-user-select: none;
   user-select: none;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .app {
   position: relative;
 }
