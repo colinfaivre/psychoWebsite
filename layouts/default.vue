@@ -4,7 +4,7 @@
     <MenuButton class="menu-button" />
 
     <NavBar class="nav-bar" />
-    <Drawer :class="{'drawer':true, 'drawer-open': menuIsOpen}" />
+    <Drawer :class="{'drawer':true,'dark':true, 'drawer-open': menuIsOpen}" />
     <div
       @click="closeMenu()"
       :class="{'background-layer': menuIsOpen}"
@@ -46,6 +46,7 @@ export default {
 </script>
 
 <style lang="scss">
+// General
 html {
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -98,6 +99,8 @@ a {
   height: 100vh;
   overflow-y: hidden;
 }
+
+
 .menu-button {
   position: absolute;
   top: 20px;
@@ -141,10 +144,10 @@ a {
   position: relative;
 }
 
-// SECTION
+// SECTIONS STYLES
 .section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 70px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -156,19 +159,24 @@ a {
   font-weight: 700;
   font-size: 30px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 .section-text {
-  max-width: 800px;
+  max-width: 600px;
+  font-size: 18px;
   margin: auto;
 }
 .dark {
   background-color: $primary;
   color: $secondary;
+  background: url("~assets/images/paper-background-dark-grey.jpg");
+  background-size: cover;
 }
 .light {
   background-color: $secondary;
   color: $primary;
+  background: url("~assets/images/paper-background1.png");
+  background-size: cover;
 }
 
 .round-image {

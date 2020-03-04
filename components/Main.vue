@@ -1,7 +1,7 @@
 <template>
   <div class="main-screen">
     <div class="top">
-      <img src="@/assets/images/rings.png">
+      <img src="@/assets/images/rings-dark.png">
       <h1 class="title">
         Jean-Yves
         <br>
@@ -33,7 +33,6 @@ export default {
 .main-screen {
   padding-left: 10px;
   padding-right: 10px;
-  background: linear-gradient(0deg, rgb(230, 230, 230) 1%, rgba(255,255,255,1) 51%);
   .top {
     display: flex;
     justify-content: center;
@@ -51,7 +50,6 @@ export default {
     min-height: 10vh;
   }
 }
-
 .title {
   font-family: 'Playfair Display', serif;
   font-weight: 700;

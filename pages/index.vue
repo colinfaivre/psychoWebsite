@@ -1,19 +1,23 @@
 <template>
   <div id="top">
     <Main class="light"/>
-    <Section1 id="section1" class="section dark"/>
-    <Section2 id="section2" class="section light"/>
-    <Hours id="hours" class="section dark"/>
-    <Office id="office"/>
-    <Map id="map"/>
+    <Parcours id="parcours" class="section dark"/>
+    <Associations id="associations" class="section light"/>
+    <Formations id="formations" class="section dark"/>
+    <Publications id="publications" class="section light"/>
+    <Cabinet id="cabinet" class="section dark"/>
+    <Office id="office" class="dark"/>
+    <Map id="map" class="dark"/>
   </div>
 </template>
 
 <script>
 import Main from '@/components/Main'
-import Section1 from '@/components/Section1'
-import Section2 from '@/components/Section2'
-import Hours from '@/components/Hours'
+import Parcours from '@/components/Parcours'
+import Associations from '@/components/Associations'
+import Formations from '@/components/Formations'
+import Publications from '@/components/Publications'
+import Cabinet from '@/components/Cabinet'
 import Office from '@/components/Office'
 import Map from '@/components/Map'
 
@@ -31,10 +35,12 @@ export default {
   },
   components: {
     Main,
-    Section1,
-    Section2,
+    Parcours,
+    Associations,
+    Formations,
+    Publications,
     Office,
-    Hours,
+    Cabinet,
     Map,
   },
 }

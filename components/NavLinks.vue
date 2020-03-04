@@ -3,9 +3,11 @@
         <n-link class="logo-container" to="/" @click.native="closeMenu()">
             <img class="big-rings" src="@/assets/images/big-rings.png">
         </n-link>
-        <n-link class="links-item" to="/#section1" v-smooth-scroll @click.native="closeMenu()">Parcours</n-link>
-        <n-link class="links-item" to="/#section2" v-smooth-scroll @click.native="closeMenu()">Associations</n-link>
-        <n-link class="links-item" to="/#hours" v-smooth-scroll @click.native="closeMenu()">Cabinet</n-link>
+        <n-link class="links-item" to="/#parcours" v-smooth-scroll @click.native="closeMenu()">Parcours</n-link>
+        <n-link class="links-item" to="/#associations" v-smooth-scroll @click.native="closeMenu()">Associations</n-link>
+        <n-link class="links-item" to="/#formations" v-smooth-scroll @click.native="closeMenu()">Formations</n-link>
+        <n-link class="links-item" to="/#publications" v-smooth-scroll @click.native="closeMenu()">Publications</n-link>
+        <n-link class="links-item" to="/#cabinet" v-smooth-scroll @click.native="closeMenu()">Cabinet</n-link>
     </div>
 </template>
 
