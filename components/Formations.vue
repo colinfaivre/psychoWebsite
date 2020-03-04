@@ -17,14 +17,38 @@
       </i>
       Devenir psychodramatiste
     </a>
-    <br>
+    <br><br><br>
+
+    <h3 class="section-title">Séminaires</h3>
     <p class="section-text">
       Dans le cadre de la Libre Association Freudienne à Limoges, deux séminaires par mois sont tenus le samedi de 10h à 12h.
       L'un est actuellement consacré à "L'interprétation du rêve" de Sigmund Freud et le deuxième est consacré au séminaire de Jacques Lacan "Le transfert".
     </p>
 
-    <div class="round-image">
-      <img src="@/assets/images/freud.png" alt="freud" width="100px">
+    <br><br>
+
+    <div class="section-text">
+      <div class="formation-box">
+        <div class="left">
+          <img src="@/assets/images/freud.png" alt="freud" width="100px">
+        </div>
+        <div class="right">
+          "L'interprétation du rêve" de Sigmund Freud
+          <br>
+          inscription
+        </div>
+      </div>
+
+      <div class="formation-box">
+        <div class="left">
+          <img src="@/assets/images/lacan.png" alt="lacan" width="100px">
+        </div>
+        <div class="right">
+          Séminaire de Jacques Lacan "Le transfert"
+          <br>
+          inscription
+        </div>
+      </div>
     </div>
 
   </div>
@@ -51,6 +75,15 @@
   }
   &:hover {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+}
+
+.formation-box {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  .right {
+    padding-left: 20px;
   }
 }
 </style>

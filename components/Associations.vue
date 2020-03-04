@@ -10,7 +10,11 @@
       </a>
       fondée également par Gabriel Balbo.
       <br><br>
-      Je figure également en tant que superviseur sur la liste des superviseurs de l'association Psychasoc fondée par le psychanalyste Joseph Rouzel.
+      Je figure également en tant que superviseur sur la liste des superviseurs de l'association 
+      <a href="http://www.psychasoc.com/" target="_blank" rel="noopener noreferrer">
+        <b>Psychasoc</b>
+      </a>
+      fondée par le psychanalyste Joseph Rouzel.
     </p>
    
   </div>

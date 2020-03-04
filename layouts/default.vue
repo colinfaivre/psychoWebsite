@@ -175,7 +175,7 @@ a {
 .light {
   background-color: $secondary;
   color: $primary;
-  background: url("~assets/images/paper-background1.png");
+  background: url("~assets/images/paper-background.png");
   background-size: cover;
 }
 

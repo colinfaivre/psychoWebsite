@@ -16,8 +16,5 @@
       <br><br>
       J'exerce la psychanalyse en cabinet à Limoges depuis janvier 2005.
     </p>
-    <div class="round-image">
-      <img src="@/assets/images/monstera.png" alt="monstera" width="100px">
-    </div>
   </div>
 </template>
