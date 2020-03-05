@@ -2,43 +2,77 @@
   <div class="paper-background">
 
     <h3 class="section-title">Publications</h3>
+
     <div class="section-text">
-      <div class="publication-box">
-        <div class="left">
-          <img src="@/assets/images/ali-17.jpg" alt="surgence-18" width="100px">
-        </div>
-        <div class="right">
-          <b>Revue de l'Association Lacanienne Internationale</b>
-          <br>
-          N°17 / 1995 Psychanalyse de l'enfant - "Construction d'un psychodrame en institution"
-          <br>
-          Abonnement
-        </div>
+
+      <div class="publications-title">
+        <b class="center">Revue de l'Association Freudienne</b>
       </div>
+      <PublicationBox :publicationData="publicationFreudienne"/>
       
-      <div class="publication-box">
-        <div class="left">
-          <img src="@/assets/images/surgence-18.png" alt="surgence-18" width="100px">
-        </div>
-        <div class="right">
-          <b>Surgence - Revue de la Libre Association Freudienne</b>
-          <br>
-          N°3 / Automne 2009 - "Sujet de l'institution, sujet dans l'institution"
-          <br>
-          N°11 / Automne 2013 - "J'sais pas c'qui m'a pris" Sur la question de la récidive
-          <br>
-          N°15 / Automne 2016 - "Chabatz d'entrar" Au sujet d'une institution congruente aux enfants dans le champ de la psychanalyse. En collaboration avec Laetitia Aucharles
-          <br>
-          N°18 / Hiver 2019 - "Le psychodrame psychanalytique individuel en groupe comme Vitz" En collaboration avec Laetitia Aucharles et Marie-Noëlle Lim    
-          <br>
-          Abonnement
-        </div>
+      <br>
+      <br>
+      
+      <div class="publications-title">
+        <b>Revue de la Libre Association Freudienne - Surgence</b>
       </div>
+      <PublicationBox v-for="publication in publications" :key="publication.index" :publicationData="publication"/>
+
     </div>
   </div>
 </template>
 
+<script>
+import PublicationBox from '@/components/PublicationBox'
+
+export default {
+  components: {
+    PublicationBox
+  },
+  data () {
+    return {
+      publicationFreudienne: {
+        number: 17,
+        date: "1995",
+        content: `Psychanalyse de l'enfant - "Construction d'un psychodrame en institution"`,
+        image: "ali-17.jpg"
+      },
+      publications: [
+        {
+          number: 3,
+          date: "Automne 2009",
+          content: `"Sujet de l'institution, sujet dans l'institution"`,
+          image: "surgence-18.png"
+        },
+        {
+          number: 11,
+          date: "Automne 2013",
+          content: `"J'sais pas c'qui m'a pris" Sur la question de la récidive`,
+          image: "surgence-18.png"
+        },
+        {
+          number: 15,
+          date: "Automne 2016",
+          content: `"Chabatz d'entrar" Au sujet d'une institution congruente aux enfants dans le champ de la psychanalyse. En collaboration avec Laetitia Aucharles`,
+          image: "surgence-18.png"
+        },
+        {
+          number: 18,
+          date: "Hiver 2019",
+          content: `"Le psychodrame psychanalytique individuel en groupe comme Vitz" En collaboration avec Laetitia Aucharles et Marie-Noëlle Lim`,
+          image: "surgence-18.png"
+        },
+      ]
+    }
+  },
+}
+</script>
+
 <style lang="scss">
+.publications-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
 .drive-link {
   display: flex;
   align-items: center;
@@ -59,13 +93,6 @@
   }
   &:hover {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  }
-}
-.publication-box {
-  margin-bottom: 30px;
-  display: flex;
-  .right {
-    padding-left: 20px;
   }
 }
 </style>

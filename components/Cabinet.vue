@@ -6,15 +6,23 @@
         <tbody>
           <tr>
             <td class="day">lun. </td>
-            <td>07:00 - 18:00</td>
-          </tr>
-          <tr>
-            <td class="day">mar. </td>
-            <td>07:00 - 18:00</td>
+            <td>17:00 - 20:00</td>
           </tr>
           <tr>
             <td class="day">mer. </td>
-            <td>07:00 - 18:00</td>
+            <td>08:30 - 12:30 / 16:30 - 20:00</td>
+          </tr>
+          <tr>
+            <td class="day">jeu.</td>
+            <td>17:30 - 18:30</td>
+          </tr>
+          <tr>
+            <td class="day">ven.</td>
+            <td>13:30 - 20:00</td>
+          </tr>
+          <tr>
+            <td class="day">sam.</td>
+            <td>08:00 - 10:00 / 12:00 - 13:00</td>
           </tr>
         </tbody>
       </table>

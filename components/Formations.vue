@@ -33,9 +33,13 @@
           <img src="@/assets/images/freud.png" alt="freud" width="100px">
         </div>
         <div class="right">
-          "L'interprétation du rêve" de Sigmund Freud
+          <div>
+            "L'interprétation du rêve" de Sigmund Freud
+          </div>
           <br>
-          inscription
+          <a class="link" href="mailto:jeanyves.gauthier.gr.travail@gmail.com" target="_blank">
+            inscription
+          </a>
         </div>
       </div>
 
@@ -44,9 +48,13 @@
           <img src="@/assets/images/lacan.png" alt="lacan" width="100px">
         </div>
         <div class="right">
-          Séminaire de Jacques Lacan "Le transfert"
+          <div>
+            Séminaire de Jacques Lacan "Le transfert"
+          </div>
           <br>
-          inscription
+          <a class="link" href="mailto:jeanyves.gauthier.gr.travail@gmail.com" target="_blank">
+            inscription
+          </a>
         </div>
       </div>
     </div>
@@ -79,11 +87,25 @@
 }
 
 .formation-box {
+  background-color: rgb(37, 37, 37);
+  padding: 5px;
+  border-radius: 60px;
   margin-bottom: 30px;
   display: flex;
   align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  img {
+    display: block;
+  }
   .right {
     padding-left: 20px;
+    .link {
+      background-color: grey;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 5px;
+    }
   }
 }
 </style>
