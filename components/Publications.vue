@@ -5,17 +5,6 @@
 
     <div class="section-text">
 
-      <div class="publications-title">
-        <b class="center">Revue de l'Association Freudienne</b>
-      </div>
-      <PublicationBox :publicationData="publicationFreudienne"/>
-      
-      <br>
-      <br>
-      
-      <div class="publications-title">
-        <b>Revue de la Libre Association Freudienne - Surgence</b>
-      </div>
       <PublicationBox v-for="publication in publications" :key="publication.index" :publicationData="publication"/>
 
     </div>
@@ -31,36 +20,69 @@ export default {
   },
   data () {
     return {
-      publicationFreudienne: {
-        number: 17,
-        date: "1995",
-        content: `Psychanalyse de l'enfant - "Construction d'un psychodrame en institution"`,
-        image: "ali-17.jpg"
-      },
       publications: [
         {
+          bookName: "La Psychanalyse de l'enfant",
+          number: 17,
+          title: "Théorie et pratiques aujourd'hui",
+          date: "1995",
+          content: `"Construction d'un psychodrame en institution"`,
+          image: "ali-17.jpg",
+          link: "https://www.freud-lacan.com/getpagedocument/27442",
+          authors: [
+            "Jean-Yves Gauthier"
+          ]
+        },
+        {
+          bookName: "Surgence",
           number: 3,
-          date: "Automne 2009",
+          title: "Le Sujet est-il négociable dans l'Institution",
+          date: "2009",
           content: `"Sujet de l'institution, sujet dans l'institution"`,
-          image: "surgence-18.png"
+          image: "surgence-3.png",
+          link: "https://libre-association-freudienne.org/3-le-sujet-est-il-negociable-dans-linstitution",
+          authors: [
+            "Jean-Yves Gauthier"
+          ]
         },
         {
+          bookName: "Surgence",
           number: 11,
-          date: "Automne 2013",
+          title: "L'abord de la récidive n'est-il qu'Hors sujet ?",
+          date: "2013",
           content: `"J'sais pas c'qui m'a pris" Sur la question de la récidive`,
-          image: "surgence-18.png"
+          image: "surgence-11.png",
+          link: "https://libre-association-freudienne.org/11-l-abord-de-la-recidive-n-est-il-qu-hors-sujet",
+          authors: [
+            "Jean-Yves Gauthier"
+          ]
         },
         {
+          bookName: "Surgence",
           number: 15,
-          date: "Automne 2016",
-          content: `"Chabatz d'entrar" Au sujet d'une institution congruente aux enfants dans le champ de la psychanalyse. En collaboration avec Laetitia Aucharles`,
-          image: "surgence-18.png"
+          title: "Que serait une institution de soin congruente, dans le champ de la psychanalyse ?",
+          date: "2016",
+          content: `"Chabatz d'entrar" Au sujet d'une institution congruente aux enfants dans le champ de la psychanalyse`,
+          image: "surgence-15.png",
+          link: "https://libre-association-freudienne.org/n-15-que-serait-une-institution-de-soin-congruente-dans-le-champ-de-la-psychanalyse",
+          authors: [
+            "Jean-Yves Gauthier",
+            "Laetitia Aucharles"
+          ]
         },
         {
+          bookName: "Surgence",
           number: 18,
-          date: "Hiver 2019",
-          content: `"Le psychodrame psychanalytique individuel en groupe comme Vitz" En collaboration avec Laetitia Aucharles et Marie-Noëlle Lim`,
-          image: "surgence-18.png"
+          title: "Le Witz",
+          date: "2019",
+          content: `"Le psychodrame psychanalytique individuel en groupe comme Witz"`,
+          image: "surgence-18.png",
+          link: "https://libre-association-freudienne.org/n-18-le-witz",
+          authors: [
+            "Jean-Yves Gauthier",
+            "Laetitia Aucharles",
+            "Marie-Noëlle Lim"
+          ]
         },
       ]
     }
