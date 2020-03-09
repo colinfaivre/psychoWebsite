@@ -50,7 +50,7 @@ export default {
           number: 11,
           title: "L'abord de la récidive n'est-il qu'Hors sujet ?",
           date: "2013",
-          content: `"J'sais pas c'qui m'a pris" Sur la question de la récidive`,
+          content: `"J'sais pas c'qui m'a pris"`,
           image: "surgence-11.png",
           link: "https://libre-association-freudienne.org/11-l-abord-de-la-recidive-n-est-il-qu-hors-sujet",
           authors: [
@@ -62,7 +62,7 @@ export default {
           number: 15,
           title: "Que serait une institution de soin congruente, dans le champ de la psychanalyse ?",
           date: "2016",
-          content: `"Chabatz d'entrar" Au sujet d'une institution congruente aux enfants dans le champ de la psychanalyse`,
+          content: `"Chabatz d'entrar"`,
           image: "surgence-15.png",
           link: "https://libre-association-freudienne.org/n-15-que-serait-une-institution-de-soin-congruente-dans-le-champ-de-la-psychanalyse",
           authors: [

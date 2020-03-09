@@ -169,14 +169,10 @@ a {
 .dark {
   background-color: $primary;
   color: $secondary;
-  background: url("~assets/images/paper-background-dark-grey.jpg");
-  background-size: cover;
 }
 .light {
-  background-color: $secondary;
+  background: linear-gradient(0deg, rgb(194, 194, 194) 2%, rgba(255,255,255,1) 51%);
   color: $primary;
-  background: url("~assets/images/paper-background.png");
-  background-size: cover;
 }
 
 .round-image {
