@@ -22,10 +22,11 @@ button {
   padding: 0;
   font-family: inherit;
   font-size: 100%;
+  background: none;
 }
 .material-icons {
   font-size: 35px;
-  color: $accent;
+  color: $primary;
   padding: 5px;
   border-radius: 22px;
   cursor: pointer;
