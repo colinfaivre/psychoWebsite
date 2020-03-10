@@ -2,7 +2,7 @@
   <div class="drawer-container">
 
     <n-link class="home-link" to="/" @click.native="closeMenu()">
-      <img src="@/assets/images/rings.png">
+      <img src="@/assets/images/rings.png" alt="logo jean-yves gauthier">
       <h1 class="drawer-title">
         Jean-Yves
         <br>

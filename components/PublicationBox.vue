@@ -1,7 +1,7 @@
 <template>
   <div class="publication-box">
     <div class="left">
-      <img :src="require('@/assets/images/' + publicationData.image)" width="130px">
+      <img :src="require('@/assets/images/' + publicationData.image)" width="130px" alt="Couverture">
     </div>
     <div class="right">
       <div class="header">
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div class="footer-right">
-          <a class="publication-link" :href="publicationData.link" target="_blank">
+          <a class="publication-link" :href="publicationData.link" target="_blank" rel="noopener noreferrer">
             <i class="material-icons">
               arrow_forward
             </i>
@@ -70,8 +70,8 @@ export default {
       display: flex;
       justify-content: space-between;
     }
-    .date {
-      color: grey;
+    .date, .authors {
+      color: rgb(97, 97, 97);
     }
     .title {
       font-weight: bold;
@@ -85,9 +85,6 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-  }
-  .authors {
-    color: grey;
   }
   .publication-link {
     display: flex;

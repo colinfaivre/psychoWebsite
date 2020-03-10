@@ -27,7 +27,7 @@ export default {
           title: "Théorie et pratiques aujourd'hui",
           date: "1995",
           content: `"Construction d'un psychodrame en institution"`,
-          image: "ali-17.jpg",
+          image: "ali-17.png",
           link: "https://www.freud-lacan.com/getpagedocument/27442",
           authors: [
             "Jean-Yves Gauthier"

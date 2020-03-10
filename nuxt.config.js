@@ -12,13 +12,13 @@ export default {
 
       // Google Search
       { hid: 'description', name: 'description', content: 'Votre psychanalyste / psychologue clinicien à Limoges' },
-      { name: 'keywords', content: 'Jean-Yves Gauthier, psychologue, psychanalyste, psychologue limoges, psychanalyste limoges' },
+      { name: 'keywords', content: 'Jean-Yves Gauthier, limoges, psychologue, psychanalyste, psychologue limoges, psychanalyste limoges' },
       // OpengGraph image (social media sharable)
       { property: 'og:image', content: '/og-image.png' },
       { property: 'og:image:width', content: '750' },
       { property: 'og:image:height', content: '376' },
       { property: 'og:description', content: 'Votre psychanalyste / psychologue clinicien à Limoges' },
-      { property: 'og:url', content: 'https://jeanyves.gauthier.psychanalyste.com' },
+      { property: 'og:url', content: 'https://jeanyves-gauthier-psychanalyste.com' },
       { property: 'og:title', content: 'Jean-Yves Gauthier' },
       
     ],
@@ -26,7 +26,13 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
+      { rel: 'preconnect', href: 'https://maps.googleapis.com' },
+      { rel: 'preconnect', href: 'https://maps.gstatic.com' },
+      { rel: 'preconnect', href: 'https://khms0.googleapis.com' },
+      { rel: 'preconnect', href: 'https://cdn.jsdelivr.net' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+      { rel: 'preconnect', href: 'https://www.google.com' },
     ]
   },
   /*

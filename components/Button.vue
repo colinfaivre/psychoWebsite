@@ -25,7 +25,7 @@
   align-items: center;
   cursor: pointer;
   text-decoration: none;
-  color: $accent;
+  color: $primary;
   &:hover {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }

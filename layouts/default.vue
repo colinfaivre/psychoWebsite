@@ -4,7 +4,7 @@
     <MenuButton class="menu-button" />
 
     <NavBar class="nav-bar" />
-    <Drawer :class="{'drawer':true,'dark':true, 'drawer-open': menuIsOpen}" />
+    <Drawer :class="{'drawer':true,'dark':true, 'drawer-open': menuIsOpen}" :style="{'visibility': menuIsOpen ? 'visible' : 'hidden'}"/>
     <div
       @click="closeMenu()"
       :class="{'background-layer': menuIsOpen}"
@@ -65,10 +65,6 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
-*:focus {
-  outline: 0;
-  -webkit-tap-highlight-color: transparent;
-}
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
  -webkit-tap-highlight-color: transparent;
@@ -106,11 +102,6 @@ a {
   top: 20px;
   right: 20px;
   z-index: 5;
-  &:focus {
-    outline: none !important;
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
-  }
 }
 .nav-bar {
   position: absolute;

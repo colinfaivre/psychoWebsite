@@ -5,7 +5,7 @@
         phone
       </i>
     </a>
-    <a href="mailto:jeanyves.gauthier.gr.travail@gmail.com" target="_blank">
+    <a href="mailto:jeanyves.gauthier.gr.travail@gmail.com" target="_blank" rel="noopener noreferrer">
       <i class="material-icons">
         mail
       </i>

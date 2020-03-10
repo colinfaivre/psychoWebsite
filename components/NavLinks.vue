@@ -1,7 +1,7 @@
 <template>
     <div class="links">
         <n-link class="logo-container" to="/" @click.native="closeMenu()">
-            <img class="big-rings" src="@/assets/images/big-rings.png">
+            <img class="big-rings" src="@/assets/images/big-rings.png" alt="logo jean-yves gauthier">
         </n-link>
         <n-link class="links-item" to="/#parcours" v-smooth-scroll @click.native="closeMenu()">Parcours</n-link>
         <n-link class="links-item" to="/#associations" v-smooth-scroll @click.native="closeMenu()">Associations</n-link>

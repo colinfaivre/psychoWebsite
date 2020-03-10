@@ -1,7 +1,7 @@
 <template>
   <div class="main-screen">
     <div class="top">
-      <img src="@/assets/images/rings-dark.png">
+      <img src="@/assets/images/rings-dark.png" alt="logo jean-yves gauthier">
       <h1 class="title">
         Jean-Yves
         <br>

@@ -1,9 +1,9 @@
 <template>
-  <div class="menu-container" @click.stop="openMenu()">
+  <button class="menu-container" tabindex="0" @click.stop="openMenu()">
     <i class="material-icons">
       menu
     </i>
-  </div>
+  </button>
 </template>
 
 <script>
@@ -17,8 +17,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.menu-container {
-  cursor: pointer;
+button {
+  border: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 100%;
 }
 .material-icons {
   font-size: 35px;

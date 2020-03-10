@@ -10,6 +10,7 @@
     <a
       href="https://docs.google.com/document/d/1KDYCaB-S70SrrIS-wyAEFvgNC9x9GPw1iUM5hcpQ97I/edit"
       target="_blank"
+      rel="noopener noreferrer"
       class="drive-link"
     >
       <i class="material-icons">
@@ -30,14 +31,14 @@
     <div class="section-text">
       <div class="formation-box">
         <div class="left">
-          <img src="@/assets/images/freud.png" alt="freud" width="100px">
+          <img src="@/assets/images/freud.png" alt="Freud" width="100px">
         </div>
         <div class="right">
           <div>
             "L'interprétation du rêve" de Sigmund Freud
           </div>
           <br>
-          <a class="link" href="mailto:jeanyves.gauthier.gr.travail@gmail.com" target="_blank">
+          <a class="link" href="mailto:jeanyves.gauthier.gr.travail@gmail.com" target="_blank" rel="noopener noreferrer">
             inscription
           </a>
         </div>
@@ -45,14 +46,14 @@
 
       <div class="formation-box">
         <div class="left">
-          <img src="@/assets/images/lacan.png" alt="lacan" width="100px">
+          <img src="@/assets/images/lacan.png" alt="Lacan" width="100px">
         </div>
         <div class="right">
           <div>
             Séminaire de Jacques Lacan "Le transfert"
           </div>
           <br>
-          <a class="link" href="mailto:jeanyves.gauthier.gr.travail@gmail.com" target="_blank">
+          <a class="link" href="mailto:jeanyves.gauthier.gr.travail@gmail.com" target="_blank" rel="noopener noreferrer">
             inscription
           </a>
         </div>
@@ -100,7 +101,7 @@
   .right {
     padding-left: 20px;
     .link {
-      background-color: grey;
+      background-color: rgb(68, 68, 68);
       padding: 5px;
       padding-left: 10px;
       padding-right: 10px;
