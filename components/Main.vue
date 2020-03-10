@@ -12,6 +12,8 @@
         Psychanalyste
         <br>
         Psychologue clinicien
+        <br>
+        à Limoges
       </h2>
     </div>
     <div class="bottom">

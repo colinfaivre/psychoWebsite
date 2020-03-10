@@ -27,7 +27,7 @@ export default {
         display: none;
     }
     .links {
-        margin-top: 20px;
+        margin-top: 30px;
         width: calc(100% - 40px);
         display: flex;
         flex-direction: column;

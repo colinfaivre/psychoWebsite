@@ -1,17 +1,6 @@
 <template>
   <div class="drawer-container">
-
-    <n-link class="home-link" to="/" @click.native="closeMenu()">
-      <img src="@/assets/images/rings.png" alt="logo jean-yves gauthier">
-      <h1 class="drawer-title">
-        Jean-Yves
-        <br>
-        Gauthier
-      </h1>
-    </n-link>
-
     <NavLinks/>
-
     <Footer/>
   </div>
 </template>
@@ -40,21 +29,6 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
-.home-link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-  margin-top: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: calc(100% - 40px);
-  border-radius: 3px;
-  &:hover {
-    background-color: $primary-med-light;
-  }
 }
 .drawer-title {
   cursor: pointer;
