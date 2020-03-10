@@ -12,7 +12,7 @@ export default {
 
       // Google Search
       { hid: 'description', name: 'description', content: 'Votre psychanalyste / psychologue clinicien à Limoges' },
-      { name: 'keywords', content: 'Jean-Yves Gauthier, limoges, psychologue, psychanalyste, psychologue limoges, psychanalyste limoges' },
+      { hid:'keywords', name: 'keywords', content: 'Jean-Yves Gauthier, limoges, psychologue, psychanalyste, psychologue limoges, psychanalyste limoges' },
       // OpengGraph image (social media sharable)
       { property: 'og:image', content: '/og-image.png' },
       { property: 'og:image:width', content: '750' },
