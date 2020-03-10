@@ -20,7 +20,7 @@
     </a>
     <br><br><br>
 
-    <h3 class="section-title">Séminaires</h3>
+    <!-- <h3 class="section-title">Séminaires</h3> -->
     <p class="section-text">
       Dans le cadre de la Libre Association Freudienne à Limoges, deux séminaires par mois sont tenus le samedi de 10h à 12h.
       L'un est actuellement consacré à "L'interprétation du rêve" de Sigmund Freud et le deuxième est consacré au séminaire de Jacques Lacan "Le transfert".
@@ -88,13 +88,11 @@
 }
 
 .formation-box {
-  background-color: rgb(37, 37, 37);
   padding: 5px;
   border-radius: 60px;
   margin-bottom: 30px;
   display: flex;
   align-items: center;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   img {
     display: block;
   }

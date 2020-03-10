@@ -98,4 +98,26 @@ export default {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
 }
+@media (max-width: $sm) {
+  .publication-box {
+    flex-direction: column;
+    .left {
+      background-color: rgb(230, 230, 230);
+      img {
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      }
+    }
+    .right {
+      margin-top: 10px;
+      padding-left: 0px;
+    }
+    .footer {
+      margin-top: 10px;
+    }
+  }
+}
 </style>

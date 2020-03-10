@@ -1,6 +1,6 @@
 <template>
   <div id="top">
-    <Main class="light"/>
+    <Main class="main"/>
     <Parcours id="parcours" class="section dark"/>
     <Associations id="associations" class="section light"/>
     <Formations id="formations" class="section dark"/>

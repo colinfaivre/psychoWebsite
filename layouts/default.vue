@@ -162,6 +162,10 @@ a {
   color: $secondary;
 }
 .light {
+  background: rgb(240, 240, 240);
+  color: $primary;
+}
+.main {
   background: linear-gradient(0deg, rgb(194, 194, 194) 2%, rgba(255,255,255,1) 51%);
   color: $primary;
 }
