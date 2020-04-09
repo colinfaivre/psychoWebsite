@@ -3,9 +3,12 @@
    
     <h3 class="section-title">Formations</h3>
     <p class="section-text">
-      Une formation au "Devenir psychodramatiste" est en cours. Dans ce cadre et pour fonder une légitimité à cette formation qualifiante nous avons fondé le Collège Nouvelle Aquitaine et Limousin de Formation Analytique au Psychodrame
-      en filiation et avec l'accord du fondateur du CFAP. Nous sommes dans ce cadre habilités à délivrer des attestation de fin de formation.
-      <br><br>
+      J'ai, avec quelques collègues fondé le <b>"Collège Nouvelle Aquitaine et Limousin de Formation Analytique au Psychodrame"</b>.
+      Cette création s'est faite en filiation et avec l'accord et le soutien du fondateur du <b>CFAP</b>.
+      Nous sommes dans ce cadre habilités à délivrer des attestations de fin de formation.
+      <br>
+      C'est ce nouveau Collège qui légitime qu'une formation <b>"Devenir Psychodramatiste"</b> qualifiante soit tenue à Limoges.
+      <br><br><br>
     </p>
     <a
       href="https://docs.google.com/document/d/1KDYCaB-S70SrrIS-wyAEFvgNC9x9GPw1iUM5hcpQ97I/edit"
