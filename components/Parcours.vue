@@ -12,7 +12,7 @@
       <br><br>
       Depuis 1984, psychologue clinicien en Maison d'Enfants à Caractère Social (MECS) où j'assure le suivi psychologique et thérapeutique d'enfants et d'adolescents en très grande difficulté.
       <br><br>
-      Psychodramatiste à l'issue d'une formation de 5 années dans le cadre du Collège de Formation Analytique au Psychodrame fondé par le psychanlyste Gabriel Balbo.
+      Psychodramatiste à l'issue d'une formation de 5 années dans le cadre du Collège de Formation Analytique au Psychodrame fondé par le psychanalyste Gabriel Balbo.
       <br><br>
       J'exerce la psychanalyse en cabinet à Limoges depuis janvier 2005.
     </p>
