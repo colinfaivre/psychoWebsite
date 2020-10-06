@@ -152,6 +152,12 @@ a {
   text-align: center;
   margin-bottom: 50px;
 }
+.section-subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
 .section-text {
   max-width: 600px;
   font-size: 18px;

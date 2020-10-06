@@ -1,6 +1,11 @@
 <template>
-  <div class="office-container">
-    <img class="office" src="~/assets/images/cabinet.png" alt="Cabinet">
+  <div>
+    <div class="office-container">
+      <img class="office" src="~/assets/images/cabinet.png" alt="Cabinet">
+    </div>
+    <div class="office-container">
+      <img class="office" src="~/assets/images/cabinet2.png" alt="Cabinet">
+    </div>
   </div>
 </template>
 
@@ -13,5 +18,6 @@
 .office {
   width: 100%;
   max-width: 800px;
+  margin-bottom: 10px;
 }
 </style>
