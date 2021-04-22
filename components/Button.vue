@@ -1,8 +1,5 @@
 <template>
-  <a class="button--action" href="tel:+33681754218">
-    <i class="material-icons">
-      phone
-    </i>
+  <a class="button--action" href="https://a.doctolib.fr/psychologue/limoges/jean-yves-gauthier">
     PRENDRE RDV
   </a>
 </template>
