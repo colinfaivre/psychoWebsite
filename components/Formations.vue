@@ -26,7 +26,7 @@
     <p class="section-text">
       Dans le cadre de la Libre Association Freudienne, deux séminaires sont tenus le samedi matin de 10h à 12h.
       L'un des séminaires est consacré au séminaire de Jacques Lacan: "Le Transfert".
-      Depuis septembre 2021 un nouveau séminaire est est tenu, consacré au concept psychanalytique élaboré dans un premier temps par Gabriel Balbo et Jean Bergès et auquel Gabriel Balbo a su donner toute son importance dans sa conception de la psychanalyse: "Le Transitivisme".
+      Depuis septembre 2021 un nouveau séminaire est tenu, consacré au concept psychanalytique élaboré dans un premier temps par Gabriel Balbo et Jean Bergès et auquel Gabriel Balbo a su donner toute son importance dans sa conception de la psychanalyse: "Le Transitivisme".
     </p>
 
     <br><br>
