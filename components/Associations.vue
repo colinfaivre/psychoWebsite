@@ -4,19 +4,19 @@
     <p class="section-text">
       A l'issue de ma formation de psychodramatiste en 1995, je suis dans la filiation du CFAP, psychodramatiste et tiens des groupes de psychodrame en institution avec des enfants et adolescents.
       <br><br>
-      Psychanalyste, je suis membre depuis sa création, de la
+      Psychanalyste, je suis membre depuis sa création par Gabriel Balbo en 2005 de son école de psychanalyse: la
       <a href="https://www.libre-association-freudienne.org/" target="_blank" rel="noopener noreferrer">
         <b>Libre Association Freudienne</b>
       </a>
-      fondée également par Gabriel Balbo.
+      .
       <br><br>
-      Je figure également en tant que superviseur sur la liste des superviseurs de l'association 
+      Je figure également en tant que superviseur sur la liste des superviseurs de l'association
       <a href="http://www.psychasoc.com/" target="_blank" rel="noopener noreferrer">
         <b>Psychasoc</b>
       </a>
       fondée par le psychanalyste Joseph Rouzel.
     </p>
-   
+
   </div>
 </template>
 

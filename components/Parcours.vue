@@ -10,7 +10,9 @@
       <br><br>
       Une expérience d'éducateur en foyer maternel en région parisienne durant une année.
       <br><br>
-      Depuis 1984, psychologue clinicien en Maison d'Enfants à Caractère Social (MECS) où j'assure le suivi psychologique et thérapeutique d'enfants et d'adolescents en très grande difficulté.
+      D'août 1984 à décembre 2020 j'ai occupé les fonctions de psychologue clinicien et psychanalyste dans un Collège Éducatif et de Formation Professionnelle à Magnac-Laval en Haute Vienne.
+      J'y ai assuré les suivis psychologiques et thérapeutiques d'enfants et adolescents en détresse.
+      J'y ai, avec une collègue elle même psychologue clinicienne et psychanalyste, tenu des groupes de psychodrames psychanalytiques individuels en groupes.
       <br><br>
       Psychodramatiste à l'issue d'une formation de 5 années dans le cadre du Collège de Formation Analytique au Psychodrame fondé par le psychanalyste Gabriel Balbo.
       <br><br>

@@ -5,18 +5,14 @@
     <div class="table-container">
       <table>
         <tbody>
-          <!-- <tr>
-            <td class="day">lun. </td>
-            <td>17:00 - 20:00</td>
-          </tr> -->
           <tr>
             <td class="day">mer. </td>
             <td>08:00 - 20:00</td>
           </tr>
-          <!-- <tr>
-            <td class="day">jeu.</td>
-            <td>17:30 - 18:30</td>
-          </tr> -->
+          <tr>
+            <td class="day">jeu. </td>
+            <td>08:00 - 14:00</td>
+          </tr>
           <tr>
             <td class="day">ven.</td>
             <td>08:00 - 20:00</td>

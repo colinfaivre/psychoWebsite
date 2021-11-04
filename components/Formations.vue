@@ -1,6 +1,6 @@
 <template>
   <div class="paper-background-grey">
-   
+
     <h3 class="section-title">Formations</h3>
     <p class="section-text">
       J'ai, avec quelques collègues fondé le <b>"Collège Nouvelle Aquitaine et Limousin de Formation Analytique au Psychodrame"</b>.
@@ -23,10 +23,10 @@
     </a>
     <br><br><br>
 
-    <!-- <h3 class="section-title">Séminaires</h3> -->
     <p class="section-text">
-      Dans le cadre de la Libre Association Freudienne à Limoges, deux séminaires par mois sont tenus le samedi de 10h à 12h.
-      L'un est actuellement consacré à "L'interprétation du rêve" de Sigmund Freud et le deuxième est consacré au séminaire de Jacques Lacan "Le transfert".
+      Dans le cadre de la Libre Association Freudienne, deux séminaires sont tenus le samedi matin de 10h à 12h.
+      L'un des séminaires est consacré au séminaire de Jacques Lacan: "Le Transfert".
+      Depuis septembre 2021 un nouveau séminaire est est tenu, consacré au concept psychanalytique élaboré dans un premier temps par Gabriel Balbo et Jean Bergès et auquel Gabriel Balbo a su donner toute son importance dans sa conception de la psychanalyse: "Le Transitivisme".
     </p>
 
     <br><br>
@@ -34,11 +34,11 @@
     <div class="section-text">
       <div class="formation-box">
         <div class="left">
-          <img src="@/assets/images/freud.png" alt="Freud" width="100px">
+          <img src="@/assets/images/lacan.png" alt="Lacan" width="100px">
         </div>
         <div class="right">
           <div>
-            "L'interprétation du rêve" de Sigmund Freud
+            Séminaire de Jacques Lacan "Le Transfert"
           </div>
           <br>
           <a class="link" href="mailto:jeanyves.gauthier.gr.travail@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -49,11 +49,11 @@
 
       <div class="formation-box">
         <div class="left">
-          <img src="@/assets/images/lacan.png" alt="Lacan" width="100px">
+          <img src="@/assets/images/balbo.png" alt="Balbo" width="100px">
         </div>
         <div class="right">
           <div>
-            Séminaire de Jacques Lacan "Le transfert"
+            Séminaire de Gabriel Balbo "Le Transitivisme"
           </div>
           <br>
           <a class="link" href="mailto:jeanyves.gauthier.gr.travail@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -75,7 +75,6 @@
   color: $primary;
   text-align: center;
   margin: auto;
-  // background-color: rgb(238, 238, 238);
   background-color: rgb(255, 255, 255);
   padding: 10px;
   max-width: 400px;
